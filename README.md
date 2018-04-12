@@ -1,11 +1,10 @@
 # PHBS_TQFML-
-Proposal
-Xu Wensong
-1701213125
-1.	Project Description
+# Proposal
+## Xu Wensong
+## 1.	Project Description
 This project is going to predict human wine taste preferences from physicochemical properties which are easily obtained through analytical tests.
 
-2.	Attribution Information:
+## 2.	Attribution Information:
 Input variables (based on physicochemical tests): 
 1 - fixed acidity 
 2 - volatile acidity 
@@ -21,7 +20,7 @@ Input variables (based on physicochemical tests):
 Output variable (based on sensory data): 
 12 - quality (score between 0 and 10)
 
-3.	Methods
+## 3.	Methods
 1)	I will test if there are some variables that are missing or inefficient and delete them;
 2)	Test if it is practicable to do dimensionality reduction;
 3)	I will do collinearity or other algorithms about feature selecting to choose several features;
