@@ -2,27 +2,16 @@
 # Proposal
 ## Xu Wensong
 ## 1.	Project Description
-This project is going to predict human wine taste preferences from physicochemical properties which are easily obtained through analytical tests.
+This project is use the training set containing 28736 images of fruits to train a classification model, and use the model to classify the test dataset. Finanly, by training differnet models, we could find the most promosing one.
 
-## 2.	Attribution Information:
-Input variables (based on physicochemical tests): 
-<br>1 - fixed acidity 
-<br>2 - volatile acidity 
-<br>3 - citric acid 
-<br>4 - residual sugar 
-<br>5 - chlorides 
-<br>6 - free sulfur dioxide 
-<br>7 - total sulfur dioxide 
-<br>8 - density 
-<br>9 - pH 
-<br>10 - sulphates 
-<br>11 - alcohol 
-<br>Output variable (based on sensory data): 
-<br>12 - quality (score between 0 and 10)
+## 2.	dataset propoerties:
+There are abundant high-quality imagines about fruits. These imagines are filmed by a Logitech C920 camera and each imagine has a white sheet as backgroud.
+Training set size: 28736 images.
+Validation set size: 9673 images.
+Number of classes: 60 (fruits).
 
 ## 3.	Methods
-1)	I will test if there are some variables that are missing or inefficient and delete them;
-2)	Test if it is practicable to do dimensionality reduction;
-3)	I will do collinearity or other algorithms about feature selecting to choose several features;
-4)	I plan to use SVM / KNN /Decision tree to find the most suitable algorithm.
-
+1)	using PCA/t-SNE to preprocess the image datasets
+2)  training Random Forest Classifier/ KNN/ SVM/ BP model by the datasets obtained above
+3)  Visualizing the dataset/outcome if possible
+4)  evaluating the most promising model in classifying fruits.
