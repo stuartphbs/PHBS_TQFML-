@@ -9,17 +9,17 @@ This project is use the training set containing 28736 images of fruits to train 
 
 <br>Here is an example image of the dataset
 
+<img src="https://github.com/stuartphbs/PHBS_TQFML-/blob/master/example%20image.png" width="450" height="300" alt="Example Image"/>
 
 
+<br>More details about the dataset:
 <br>Training set size: 28736 images.
-
 <br>Validation set size: 9673 images.
-
 <br>Number of classes: 60 (fruits).
 
 <br> Data resource: Kaggle
-
 <br> Data size: 180Mb
+
 ## 3.	Methods
 1)	using PCA/t-SNE to preprocess the image datasets
 2)  training Random Forest Classifier/ KNN/ SVM/ BP model by the datasets obtained above
