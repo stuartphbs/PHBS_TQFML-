@@ -11,7 +11,7 @@ This project is use the training set containing 28736 images of fruits to train 
 
 <img src="https://github.com/stuartphbs/PHBS_TQFML-/blob/master/example%20image.png" width="450" height="300" alt="Example Image"/>
 
-<img src="https://github.com/stuartphbs/PHBS_TQFML-/blob/master/Project/fruit_image_2D.png" width="450" height="300" alt="2D_images after dimensionality reduction"/>
+<img src="https://github.com/stuartphbs/PHBS_TQFML-/blob/master/Project/fruit_image_2D.png" width="700" height="600" alt="2D_images after dimensionality reduction"/>
 
 <br>More details about the dataset:
 <br>Training set size: 28736 images.
