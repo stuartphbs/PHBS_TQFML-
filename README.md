@@ -31,20 +31,23 @@ This project is use the training set containing 28736 images of fruits to train 
 ## 5.	Result and conclusion
 After several decompressing steps, I obtained training_data_pca. I trained SVM model, random forest and KNN, and used these models to classify test_images. The result showed KNN had the best performance on predicting, while SVM had the worst performance. More detail information are as below:
 <br> Under SVM model,
-confusion matrix:
+<br>confusion matrix:
+<img src="https://github.com/stuartphbs/PHBS_TQFML-/blob/master/Project/SVM_confmatr.png" width="500" height="400" alt="2D_images after dimensionality reduction"/>
 
 <br>Average precision: 0.98
 <br>Average recall:0.47
 <br>Average f1-score:0.60
 <br>
 <br>Under RandomForest,
-confusion matrix:
+<br>confusion matrix:
+<img src="https://github.com/stuartphbs/PHBS_TQFML-/blob/master/Project/randomf_confmatr.png" width="500" height="400" alt="2D_images after dimensionality reduction"/>
 <br>Average precision: 0.88
 <br>Average recall:0.87
 <br>Average f1-score:0.86
 <br>
-<br>Under RandomForest,
-confusion matrix:
+<br>Under KNN,
+<br>confusion matrix:
+<img src="https://github.com/stuartphbs/PHBS_TQFML-/blob/master/Project/KNN.png" width="500" height="400" alt="2D_images after dimensionality reduction"/>
 <br>Average precision: 0.93
 <br>Average recall:0.93
 <br>Average f1-score:0.93
