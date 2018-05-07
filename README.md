@@ -2,7 +2,7 @@
 # Proposal
 ## Xu Wensong
 ## 1.	Project Description
-This project is use the training set containing 28736 images of fruits to train a classification model, and use the model to classify the test dataset. Finanly, by training differnet models, we could find the most promosing one.
+This project is use the training set containing 28736 images of fruits to train classification models(SVM, RandomForest and KNN) , and use these models to recognize and classify the test fruit images. Finanly, by training differnet models, we could find the most promosing model.
 
 ## 2.	dataset propoerties:
 <br>There are abundant high-quality imagines about 60 kinds of fruits containing Apples, Apricot, Avocado, Avocado ripe, Banana, etc. These imagines are filmed by a Logitech C920 camera and each imagine has a white sheet as backgroud. 
