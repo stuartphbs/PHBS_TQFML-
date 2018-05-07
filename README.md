@@ -20,8 +20,25 @@ This project is use the training set containing 28736 images of fruits to train 
 <br> Data resource: Kaggle
 <br> Data size: 180Mb
 
-## 3.	Methods
-1)	using PCA/t-SNE to preprocess the image datasets
-2)  training Random Forest Classifier/ KNN/ SVM/ BP model by the datasets obtained above
-3)  Visualizing the dataset/outcome if possible
-4)  evaluating the most promising model in classifying fruits.
+## 3.	Motivation,goal
+  Because of the development of machine learning, image recognition technology has been widely used in life, so the task is to train the model through a set of fruit picture data, so that the model can recognize the kind of fruit.
+  
+## 4.	Result and conclusion
+After several decompressing steps, I obtained training_data_pca. I trained SVM model, random forest and KNN, and used these models to classify test_images. The result showed KNN had the best performance on predicting, while SVM had the worst performance. More detail information are as below:
+<br> Under SVM model,
+<br>Average precision: 0.98
+<br>Average recall:0.47
+<br>Average f1-score:0.60
+<br>
+<br>Under RandomForest,
+<br>Average precision: 0.88
+<br>Average recall:0.87
+<br>Average f1-score:0.86
+<br>
+<br>Under RandomForest,
+<br>Average precision: 0.93
+<br>Average recall:0.93
+<br>Average f1-score:0.93
+
+
+
