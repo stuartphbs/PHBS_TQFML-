@@ -11,6 +11,7 @@ This project is use the training set containing 28736 images of fruits to train 
 
 <img src="https://github.com/stuartphbs/PHBS_TQFML-/blob/master/example%20image.png" width="450" height="300" alt="Example Image"/>
 
+<img src="https://github.com/stuartphbs/PHBS_TQFML-/blob/master/Project/fruit_image_2D.png" width="450" height="300" alt="2D_images after dimensionality reduction"/>
 
 <br>More details about the dataset:
 <br>Training set size: 28736 images.
@@ -23,19 +24,27 @@ This project is use the training set containing 28736 images of fruits to train 
 ## 3.	Motivation,goal
   Because of the development of machine learning, image recognition technology has been widely used in life, so the task is to train the model through a set of fruit picture data, so that the model can recognize the kind of fruit.
   
-## 4.	Result and conclusion
+## 4.	Methods
+  Because the image data contain many information, so I first transformed the image data into numpy array data by cv2.imread. Then,  I used pca method to reduce the dimension, setting n_components= 50. Because validation_images are in another folder, so Used the same method for it.
+<br>  After these method, we can train SVM, RandomForest and KNN models and recognize unknown images.
+  
+## 5.	Result and conclusion
 After several decompressing steps, I obtained training_data_pca. I trained SVM model, random forest and KNN, and used these models to classify test_images. The result showed KNN had the best performance on predicting, while SVM had the worst performance. More detail information are as below:
 <br> Under SVM model,
+confusion matrix:
+
 <br>Average precision: 0.98
 <br>Average recall:0.47
 <br>Average f1-score:0.60
 <br>
 <br>Under RandomForest,
+confusion matrix:
 <br>Average precision: 0.88
 <br>Average recall:0.87
 <br>Average f1-score:0.86
 <br>
 <br>Under RandomForest,
+confusion matrix:
 <br>Average precision: 0.93
 <br>Average recall:0.93
 <br>Average f1-score:0.93
